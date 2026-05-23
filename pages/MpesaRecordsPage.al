@@ -1,35 +1,20 @@
-page Id MyPage
+page 50110 MpesaRecordsPage
 {
     PageType = Card;
     ApplicationArea = All;
-    UsageCategory = Administration;
-    SourceTable = TableName;
+    UsageCategory = Documents;
+    SourceTable = MpesaRecords;
     
     layout
     {
         area(Content)
         {
-            group(GroupName)
+            group("Transaction Details")
             {
-                field(Name; NameSource)
-                {
-                    
-                }
-            }
-        }
-    }
-    
-    actions
-    {
-        area(Processing)
-        {
-            action(ActionName)
-            {
-                
-                trigger OnAction()
-                begin
-                    
-                end;
+                field(TransactioID; Rec.TransactioID){}
+                field(Name; Rec.Name){}
+                field(Amount; Rec.Amount){}
+                field(Time; Rec.Time){}
             }
         }
     }

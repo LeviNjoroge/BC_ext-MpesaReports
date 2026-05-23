@@ -1,4 +1,4 @@
-table 50110 MpesaTable
+table 50110 MpesaRecords
 {
     DataClassification = ToBeClassified;
     
