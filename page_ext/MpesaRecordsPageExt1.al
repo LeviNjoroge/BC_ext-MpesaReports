@@ -1,8 +1,9 @@
 pageextension 50110 MpesaRecordsPageExt extends MpesaRecordsPage
 {
+    
     layout
     {
-        addafter(Name){
+        addbefore("Transaction Details"){
             field(Surname; Rec.Surname){}
         }
     }

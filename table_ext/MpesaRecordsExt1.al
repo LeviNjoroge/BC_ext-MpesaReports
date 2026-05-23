@@ -1,5 +1,6 @@
 tableextension 50110 MpesaRecordsExt1 extends MpesaRecords
 {
+    
     fields
     {
         field(10; Surname; Text[20])
