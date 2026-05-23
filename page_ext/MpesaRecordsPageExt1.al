@@ -2,7 +2,7 @@ pageextension 50110 MpesaRecordsPageExt extends MpesaRecordsPage
 {
     layout
     {
-        addafter(name){
+        addafter(Name){
             field(Surname; Rec.Surname){}
         }
     }
