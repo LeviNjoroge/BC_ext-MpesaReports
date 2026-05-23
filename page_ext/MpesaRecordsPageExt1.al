@@ -3,8 +3,15 @@ pageextension 50110 MpesaRecordsPageExt extends MpesaRecordsPage
     
     layout
     {
-        addbefore("Transaction Details"){
-            field(Surname; Rec.Surname){}
+        // addfirst("Transaction Details"){
+        //     field(Surname; Rec.Surname){
+        //         ApplicationArea=All;
+        //     }
+        // }
+        addafter(Name){
+            field(Surname; Rec.Surname){
+                ApplicationArea=All;
+            }
         }
     }
     
