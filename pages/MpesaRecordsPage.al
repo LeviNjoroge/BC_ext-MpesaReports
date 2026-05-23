@@ -4,6 +4,7 @@ page 50110 MpesaRecordsPage
     ApplicationArea = All;
     UsageCategory = Documents;
     SourceTable = MpesaRecords;
+    Caption = 'Mpesa Records';
     
     layout
     {
