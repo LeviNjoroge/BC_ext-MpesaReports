@@ -26,12 +26,14 @@ Short project README for practicing Business Central (AL) table/page extensions.
 - Press `F5` (or use `AL: Publish`/`AL: Publish On Debug`) to deploy to the configured BC environment.
 - In Business Central, search for the page (e.g., "Mpesa Records") and create/edit records to see the base fields and the added extension field.
 
+<!-- 
 **Notes & tips**
 - The table extension adds columns at runtime; if you already published the base table, publish the extension to update the schema.
 - If you change IDs or field names, bump the `app.json` version accordingly and re-publish.
-- Keep the object IDs consistent with your environment to avoid conflicts.
+- Keep the object IDs consistent with your environment to avoid conflicts. 
 
-<!-- **Next steps you might try**
+**Next steps you might try**
 - Add validation logic or a `OnValidate` trigger to the new field.
 - Add a list action or report that summarizes records by date or amount.
-- Add permission sets to `app.json` for controlling access. -->
+- Add permission sets to `app.json` for controlling access. 
+-->
