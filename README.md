@@ -31,9 +31,7 @@ Short project README for practicing Business Central (AL) table/page extensions.
 - If you change IDs or field names, bump the `app.json` version accordingly and re-publish.
 - Keep the object IDs consistent with your environment to avoid conflicts.
 
-**Next steps you might try**
+<!-- **Next steps you might try**
 - Add validation logic or a `OnValidate` trigger to the new field.
 - Add a list action or report that summarizes records by date or amount.
-- Add permission sets to `app.json` for controlling access.
-
-If you want, I can: update the README with actual field names and code snippets from the files, or run a quick scan of the .al files and include precise field names and examples. Which would you like next?
+- Add permission sets to `app.json` for controlling access. -->
